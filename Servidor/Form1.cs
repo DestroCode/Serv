@@ -69,7 +69,7 @@ namespace Servidor
 
         private void button1_Click(object sender, EventArgs e)
         {
-            IPAddress enderecoIP = IPAddress.Parse("192.168.0.2");
+            IPAddress enderecoIP = IPAddress.Parse("192.168.0.2"); //chande for connection
             label1.Text = "Aguardando Conexão...";
             label1.ForeColor = System.Drawing.Color.Yellow;
             button1.Enabled = false;
